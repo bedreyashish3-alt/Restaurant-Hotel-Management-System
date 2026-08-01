@@ -1,0 +1,1 @@
+console.log("Restaurant & Hotel Management System Loaded");

@@ -1,0 +1,296 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f8f9fa;
+}
+
+/* Navbar */
+
+.navbar{
+    transition:.4s;
+}
+
+.navbar-brand{
+    font-size:32px;
+    font-weight:700;
+    color:#ffc107 !important;
+}
+
+.nav-link{
+    color:white !important;
+    margin-left:20px;
+    font-weight:500;
+}
+
+.nav-link:hover{
+    color:#ffc107 !important;
+}
+
+/* Hero */
+
+.hero{
+
+    height:100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("../images/hero.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.overlay{
+    width:100%;
+}
+
+.hero h1{
+    font-size:70px;
+    font-weight:800;
+}
+
+.hero p{
+    font-size:24px;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+/* Buttons */
+
+.btn-warning{
+
+    padding:14px 35px;
+    font-size:18px;
+    border-radius:30px;
+    font-weight:600;
+
+}
+
+/* About */
+
+#about{
+
+    padding-top:100px;
+    padding-bottom:100px;
+
+}
+
+#about h2{
+
+    font-size:42px;
+    font-weight:700;
+
+}
+
+#about p{
+
+    font-size:18px;
+    line-height:32px;
+
+}
+
+#about img{
+
+    border-radius:20px;
+
+}
+
+/* Cards */
+
+.card{
+
+    border:none;
+    border-radius:20px;
+    transition:.4s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0px 15px 40px rgba(0,0,0,.2);
+
+}
+
+/* Footer */
+
+footer{
+
+    background:#111;
+    color:white;
+
+}
+
+footer h3{
+
+    color:#ffc107;
+    font-weight:700;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:45px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+#about h2{
+
+font-size:32px;
+
+}
+
+}
+
+/* Rooms Section */
+
+#rooms{
+
+padding:100px 0;
+
+background:#ffffff;
+
+}
+
+#rooms h2{
+
+font-size:42px;
+
+margin-bottom:60px;
+
+}
+
+#rooms .card{
+
+border-radius:20px;
+
+overflow:hidden;
+
+}
+
+#rooms img{
+
+height:250px;
+
+object-fit:cover;
+
+}
+
+#rooms .card-body{
+
+text-align:center;
+
+padding:30px;
+
+}
+
+#rooms h4{
+
+font-weight:700;
+
+}
+
+#rooms h5{
+
+font-weight:700;
+
+margin:20px 0;
+
+}
+
+/* Restaurant */
+
+#restaurant{
+
+padding:100px 0;
+
+}
+
+#restaurant img{
+
+border-radius:20px;
+
+}
+
+#restaurant h3{
+
+font-size:36px;
+
+font-weight:700;
+
+}
+
+#restaurant p{
+
+font-size:18px;
+
+line-height:30px;
+
+}
+
+#restaurant li{
+
+font-size:18px;
+
+margin-bottom:10px;
+
+}
+
+/* Gallery */
+
+.gallery-img{
+
+height:250px;
+
+width:100%;
+
+object-fit:cover;
+
+transition:.4s;
+
+cursor:pointer;
+
+}
+
+.gallery-img:hover{
+
+transform:scale(1.05);
+
+}
+
+#contact p{
+
+font-size:18px;
+
+margin-bottom:15px;
+
+}
